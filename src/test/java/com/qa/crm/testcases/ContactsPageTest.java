@@ -87,6 +87,13 @@ public class ContactsPageTest extends TestBase {
 		
 	}
 	
+	@Test(priority = 5)
+	public void jenkingConfigure()
+	{
+		System.out.println("Jenkin is sucessfully configured");
+		
+	}
+	
 	 @AfterMethod 
 	 public void tearDown() { driver.quit(); }
 	 
